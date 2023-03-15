@@ -12,7 +12,7 @@
     <hr class="sidebar-divider my-0">
     <!-- Nav Item - Dashboard -->
     <li class="nav-item ">
-        <a class="nav-link" href="{{ route('index_page') }}">
+        <a class="nav-link" href="{{ route('page.index') }}">
             <i class="fas fa-fw fa-plus"></i>
             <span>Sayfalar</span></a>
     </li>

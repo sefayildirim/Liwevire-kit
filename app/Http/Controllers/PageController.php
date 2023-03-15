@@ -13,7 +13,7 @@ class PageController extends Controller
     public function index()
     {
         $pages = Page::all();
-        return view('layouts.sidebar', compact('pages', 'pages'));
+        return view('pages.page_list', compact('pages', 'pages'));
     }
 
     /**
@@ -21,7 +21,7 @@ class PageController extends Controller
      */
     public function create()
     {
-        //
+        return view("pages.page_create");
     }
 
     /**
